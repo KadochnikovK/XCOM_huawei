@@ -392,7 +392,7 @@ a {
   left: 0;
   right: 0;
   z-index: 3;
-  background-color: var(--color-bright);
+  background-color: var(--color-dark);
   border-radius: 0 0 var(--size-xxs) var(--size-xxs);
 }
 .header__content {
@@ -451,12 +451,15 @@ a {
   transition: all 0.3s;
 }
 .menu__link:hover {
-  color: var(--color-main);
+  color: var(--color-dark);
 }
 @media (min-width: 1224px) {
   .menu__link {
     font-size: var(--size-xxs);
     color: var(--color-bright);
+  }
+  .menu__link:hover {
+    color: var(--color-main);
   }
 }
 

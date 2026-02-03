@@ -52,12 +52,16 @@
         transition: all 0.3s;
 
         &:hover {
-            color: var(--color-main);
+            color: var(--color-dark);
         }
 
         @include lg {
             font-size: var(--size-xxs);
             color: var(--color-bright);
+
+            &:hover {
+            color: var(--color-main);
+        }
         }
 
        
